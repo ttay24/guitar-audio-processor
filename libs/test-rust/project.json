@@ -1,0 +1,20 @@
+{
+  "root": "libs/test-rust",
+  "projectType": "library",
+  "sourceRoot": "libs/test-rust/src",
+  "targets": {
+    "test": {
+      "executor": "@nxrs/cargo:test",
+      "options": {}
+    },
+    "lint": {
+      "executor": "@nxrs/cargo:clippy",
+      "options": {
+        "fix": false,
+        "failOnWarnings": true,
+        "noDeps": true
+      }
+    }
+  },
+  "tags": []
+}
