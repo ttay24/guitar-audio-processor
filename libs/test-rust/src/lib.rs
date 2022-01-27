@@ -1,6 +1,9 @@
 pub fn test_rust() -> String {
+    println!("test!");
     "test_rust".into()
 }
+
+pub mod test_vst;
 
 #[cfg(test)]
 mod tests {

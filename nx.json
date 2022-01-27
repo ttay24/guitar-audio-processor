@@ -45,6 +45,6 @@
       "style": "scss"
     }
   },
-  "defaultProject": "ui",
+  "defaultProject": "tauri-desktop",
   "plugins": ["@nxrs/cargo"]
 }
