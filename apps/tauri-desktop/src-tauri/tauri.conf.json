@@ -4,10 +4,10 @@
     "version": "0.1.0"
   },
   "build": {
-    "distDir": "../dist/apps/ui",
+    "distDir": "../../../dist/apps/ui",
     "devPath": "http://localhost:4200",
-    "beforeDevCommand": "",
-    "beforeBuildCommand": ""
+    "beforeDevCommand": "yarn nx serve ui",
+    "beforeBuildCommand": "yarn nx build ui"
   },
   "tauri": {
     "bundle": {

@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "tauri-desktop": "apps/tauri-desktop",
     "test_rust": "libs/test-rust",
     "ui": "apps/ui",
     "ui-e2e": "apps/ui-e2e"

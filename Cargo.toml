@@ -1,4 +1,5 @@
 [workspace]
 members = [
-    "libs/test-rust"
+    "libs/test-rust",
+    "apps/tauri-desktop/src-tauri"
 ]
